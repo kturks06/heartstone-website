@@ -13,7 +13,14 @@
 .hero p{color:var(--muted);font-size:18px}
 .grid{display:grid;gap:16px}
 .grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}
-.card{background:var(--card);border:1px solid var(--border);border-radius:16px;box-shadow:0 8px 24px rgba(15,23,42,.06);padding:18px;text-align:center;transition:transform .15s ease, box-shadow .15s ease}
+.card,
+.service-card {
+  background: #ffffff !important;
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.05);
+}
 .card:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(15,23,42,.09)}
 .card img{height:160px;width:auto;object-fit:contain;margin:10px auto 12px;display:block}
 @media (max-width: 900px){ .card img{height:120px} }
