@@ -50,3 +50,46 @@
     align-items: center;
     margin-bottom: 20px;
 }
+/* Concierge pricing card tune-up */
+.price-card{
+  max-width: 560px;               /* narrower box like your example */
+  margin: 28px auto;              /* centered */
+  padding: 24px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(15,23,42,.06);
+}
+
+.price-card h2{ margin: 0 0 8px; font-size: 24px; }
+
+.price{
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 6px 0 2px;
+}
+.price .unit{
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+/* Bullet list spacing exactly like the example */
+.features{
+  list-style: disc;
+  list-style-position: outside;   /* bullets close to text */
+  padding-left: 1.25rem;          /* tighten left indent */
+  margin: 12px auto 18px;
+  text-align: left;               /* list reads better left-aligned */
+  max-width: 440px;               /* shorter text column inside the card */
+  line-height: 1.5;
+}
+.features li{ margin: 6px 0; }    /* even bullet spacing */
+
+.price-card .btn{
+  display: inline-block;
+  width: 100%;
+  max-width: 360px;               /* button width like example */
+}
