@@ -26,3 +26,13 @@
 .kv{display:grid;gap:8px;grid-template-columns:1fr 2fr}
 .kv div{padding:6px 0;border-bottom:1px dashed var(--border)}
 @media (max-width: 900px){.grid-3{grid-template-columns:1fr}.hero h1{font-size:32px}.card img{height:48px}}
+.form { margin-top: 12px; }
+.form label { display:block; font-weight:600; margin:10px 0 6px; }
+.form input, .form select, .form textarea {
+  width:100%; padding:10px 12px; border:1px solid var(--border);
+  border-radius:10px; font:inherit; background:#fff;
+}
+.form .row { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+.form .consent { font-weight:500; color:var(--muted); display:flex; gap:8px; align-items:flex-start; }
+.form button.btn { cursor:pointer; }
+@media (max-width: 900px){ .form .row { grid-template-columns:1fr; } }
