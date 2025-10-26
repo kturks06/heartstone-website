@@ -37,3 +37,16 @@
 .form .consent { font-weight:500; color:var(--muted); display:flex; gap:8px; align-items:flex-start; }
 .form button.btn { cursor:pointer; }
 @media (max-width: 900px){ .form .row { grid-template-columns:1fr; } }
+/* Make brand logos larger */
+.brand-logo {
+    width: 220px;      /* Adjust bigger or smaller */
+    height: auto;
+}
+
+/* Optional: Center them */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
