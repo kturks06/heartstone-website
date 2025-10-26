@@ -153,3 +153,10 @@
 @media (max-width: 900px){
   .pp-grid { grid-template-columns: 1fr; }
 }
+/* Increase logo size in service cards */
+.service-logo {
+  width: 170px;   /* Size — can be changed later */
+  height: auto;
+  display: block;
+  margin: 0 auto 14px auto;  /* centers and adds spacing */
+}
