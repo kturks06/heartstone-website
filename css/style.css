@@ -182,7 +182,7 @@
 }
 /* Increase logo size in service cards */
 .service-logo {
-  width: 300px;   /* Size — can be changed later */
+  width: 250px;   /* Size — can be changed later */
   height: auto;
   display: block;
   margin: 0 auto 14px auto;  /* centers and adds spacing */
