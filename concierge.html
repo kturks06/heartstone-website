@@ -34,11 +34,28 @@
         <li>Simple facility contract; monthly invoicing</li>
       </ul>
 
-      <a href="#contact" class="btn">Request Facility Contract</a>
+      <button id="contractButton" class="btn">Request Facility Contract</button>
     </div>
   </div>
 </section>
-<footer class="footer">
+
+  <!-- Popup Contact Form -->
+<div id="contractForm" class="form-popup">
+  <form id="facilityForm">
+    <h3>Request Facility Contract</h3>
+
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="4" placeholder="Tell us about your facility or request details..." required></textarea>
+
+    <div class="form-buttons">
+      <button type="submit" class="btn">Send</button>
+      <button type="button" id="closeForm" class="btn cancel">Cancel</button>
+    </div>
+  </form>
+</div><footer class="footer">
   <div class="container footer-inner">
     <div>© 2026 Turks Healthcare Consultant, LLC. DBAs: HeartStone Telehealth Services • HeartStone In‑Home Medical Services</div>
     <div><a href="#contact">Contact</a></div>
